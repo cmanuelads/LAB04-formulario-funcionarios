@@ -77,7 +77,7 @@ Inicie a aplicação, mapeando a porta 8080 do seu computador para a porta 80 do
 
 
 
-docker run -d -p 8080:80 --name app-funcionarios gestao-funcionarios
+docker run -d -p 8081:80 --name app-funcionarios gestao-funcionarios
 
 
 
