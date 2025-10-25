@@ -1,4 +1,4 @@
-\# 🧑‍💻 Sistema de Gestão de Funcionários
+# 🧑‍💻 Sistema de Gestão de Funcionários
 
 
 
@@ -12,7 +12,7 @@ Este projeto implementa um **Sistema de Gestão de Funcionários** simples, dese
 
 
 
-\## 🎯 Funcionalidades Implementadas (CRUD e Relatórios)
+## 🎯 Funcionalidades Implementadas (CRUD e Relatórios)
 
 
 
@@ -20,24 +20,24 @@ O sistema cumpre os seguintes requisitos do estudo de caso:
 
 
 
-\### Manipulação de Dados (Exercícios 1, 2 e 3)
+### Manipulação de Dados (Exercícios 1, 2 e 3)
 
 
 
-* Cadastro e Listagem:\*\* Gerenciamento de dados via formulário HTML e exibição dinâmica em tabela.
-* Excluir e Alterar:\*\* Funcionalidades completas de edição e remoção de funcionários.
-* Arrow Functions (Lambdas):\*\* Uso obrigatório para busca, remoção, atualização e eventos de formulário.
+Cadastro e Listagem: Gerenciamento de dados via formulário HTML e exibição dinâmica em tabela.
+Excluir e Alterar: Funcionalidades completas de edição e remoção de funcionários.
+Arrow Functions (Lambdas): Uso obrigatório para busca, remoção, atualização e eventos de formulário.
 
 
 
-\### Relatórios (Exercício 4 - Streams JS)
+### Relatórios (Exercício 4 - Streams JS)
 
 
 
-* Salário > R$ 5000: Lista de funcionários que se encaixam no critério (`.filter()`).
-* Média Salarial: Cálculo da média dos salários (`.reduce()`).
-* Cargos Únicos: Lista de todos os cargos distintos (`.map()` e `new Set()`).
-* Nomes em Maiúsculo: Lista de todos os nomes formatados em caixa alta (`.map()`).
+ Salário > R$ 5000: Lista de funcionários que se encaixam no critério (`.filter()`).
+ Média Salarial: Cálculo da média dos salários (`.reduce()`).
+ Cargos Únicos: Lista de todos os cargos distintos (`.map()` e `new Set()`).
+ Nomes em Maiúsculo: Lista de todos os nomes formatados em caixa alta (`.map()`).
 
 
 
@@ -45,7 +45,7 @@ O sistema cumpre os seguintes requisitos do estudo de caso:
 
 
 
-\## 🚀 Como Executar (Desenvolvimento com Docker)
+## 🚀 Como Executar (Desenvolvimento com Docker)
 
 
 
@@ -53,13 +53,13 @@ O sistema deve ser versionado no GitHub e deve utilizar container Docker para o 
 
 
 
-\### 1. Pré-requisitos
+### 1. Pré-requisitos
 
-\* Docker instalado e em execução.
+ Docker instalado e em execução.
 
 
 
-\### 2. Construção da Imagem
+### 2. Construção da Imagem
 
 Execute o comando no terminal, a partir da pasta raiz do projeto (`sistema-funcionarios`):
 
@@ -69,7 +69,7 @@ docker build -t gestao-funcionarios .
 
 
 
-**3. Execução do Container**
+3. Execução do Container
 
 
 
@@ -81,11 +81,11 @@ docker run -d -p 8080:80 --name app-funcionarios gestao-funcionarios
 
 
 
-**4. Acesso**
+4. Acesso
 
 
 
-Abra seu navegador e acesse a aplicação em: http://localhost:8080
+Abra seu navegador e acesse a aplicação em: http://localhost:8081
 
 
 
